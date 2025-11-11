@@ -1,0 +1,49 @@
+{
+  "name": "uniform-resource-compactor",
+  "version": "1.0.0",
+  "title": "Uniform Resource Compactor",
+  "description": "A Python-based GUI application using Tkinter and PyShorteners to shorten long URLs into compact, shareable links. Includes clipboard copy functionality and multi-threading for a smooth experience.",
+  "author": {
+    "name": "Akash Yadav",
+    "email": "akashyadav955851akash@gmail.com",
+    "github": "https://github.com/iakashyadav"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Python",
+    "Tkinter",
+    "URL Shortener",
+    "pyshorteners",
+    "pyperclip",
+    "GUI",
+    "Multithreading",
+    "TinyURL",
+    "Desktop App"
+  ],
+  "main": "url_shortener.py",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/Uniform-Resource-Compactor.git"
+  },
+  "scripts": {
+    "start": "python url_shortener.py"
+  },
+  "dependencies": {
+    "pyshorteners": ">=1.0.1",
+    "pyperclip": ">=1.8.2"
+  },
+  "environment": {
+    "python_version": ">=3.8"
+  },
+  "features": {
+    "gui": true,
+    "clipboard_copy": true,
+    "thread_safe": true,
+    "no_api_key_required": true
+  },
+  "screenshots": [
+    "screenshot.png"
+  ],
+  "created": "2025-11-11",
+  "updated": "2025-11-11"
+}
